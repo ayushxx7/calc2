@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paper Calc 2</title>
+	<script type="text/javascript" src = "js/test.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/test.css">
+</head>
+<body>
+
+
+  <div class="container-fluid">
+
+ 	<div id = "case_one"  class="calcoptions sizemod">
+ 
+ 	<h5>1. To find the weight (in <b>Kilograms</b>) of a ream containing 500 sheets of a given size in <b>inches</b> and <b>Gram-Weight.</b></h5> 
+ 	<br>    
+
+ 	<div class="row">
+ 	<div class="col-md-6">
+
+
+	Length: <input type="number" step="0.01" name="length_in" id="length" placeholder="Length(inch)"  onkeyup="fun();">inch
+	<br><br>
+
+	Width: &nbsp;&nbsp;<input type="number" step="0.01" name="width_in" id="width" placeholder="Width(inch)"  onkeyup="fun();">inch
+	<br><br>
+
+	GSM: &nbsp;&nbsp;&nbsp;<span class="extraSpace">&nbsp;</span><input type="number" 	 step="0.01" name="length_in" id="GSM" placeholder="GSM" onkeyup="fun();"> <button type = "button" name = "calc2" class = 'btnclass' id="cal2" onclick="func2()">
+		calc2
+	</button>
+	<br><br>
+
+	Weight: <input type="number" step = "0.01" name="Weight_Kg" id = "weight" onkeyup="fun();"> KG <button type = "button" name = "calc1" id="cal1" class = 'btnclass' onclick="func1()">
+		calc1
+	</button> 
+	<br><br> 
+	
+	
+
+
+	
+
+	</div>
+ <p id='err'></p>
+
+</body>
+</html>

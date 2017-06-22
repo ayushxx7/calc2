@@ -1,0 +1,119 @@
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input
+{
+	width: 7em;
+	text-align: right;
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+@media only screen and (max-width: 900px) {
+  .sizemod {	
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 900px)
+{
+ 	.extraSpace {
+ 		display: none;
+ 	}
+}
+
+@media (min-width: 858px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 780px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 702px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 724px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 623px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+select {
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+        /*font-style: italic;*/	
+    }
+    select#fixed {
+        -webkit-appearance: none;
+    }
+
+textarea {
+    width: 20px;
+};
+
+input[type="number"] {
+    width: 20px;
+};       
+/*
+#text_container
+    {
+        padding: 1px;           /*To make sure that the input and the label will not overlap the border, If you remove this line it will not display correctly on Opera 15.0*/
+     /*//   border: 1px solid activeborder;*/ /*Create our fake border :D*/
+ /*   } 
+    #text_container > label
+    {
+        color: activeborder;
+        background-color: white;    
+
+        -webkit-touch-callout: none;    /*Make the label text unselectable*/
+   /*     -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
+    #text_container > input
+    {
+        /*border: none;*/           /*We have our fake border already :D*/
+    /*}
+/*.input-box { position: relative; }
+
+input { display: block; border: 1px solid #d7d6d6; background: #fff; padding: 10px 10px 10px 20px; width: 195px; }
+
+.unit { position: absolute; display: block; left: 5px; top: 10px; z-index: 9; }*/
